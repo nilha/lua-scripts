@@ -21,3 +21,4 @@ dev:
 	@cd ./src && lua main.lua
 
 docker:
+	docker build -t lua-scripts . && docker run -t lua-scripts

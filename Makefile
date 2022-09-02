@@ -31,9 +31,10 @@ compile_with_luajit: makedist
 	make copy
 
 install:
-	luarocks install lua-curl
+	luarocks install --server=https://luarocks.org/dev luaformatter
 	luarocks install inifile
 	luarocks install lunajson
+	luarocks install luastatic
 
 lint:
 	lua-format **/*.lua

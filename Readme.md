@@ -13,14 +13,10 @@
 
 - lua
   - `brew install lua`
-- luajt
-  - `brew cleanup luajit`
 - package manager
   - `brew install luarocks`
-- formatter
-  - `luarocks install --server=https://luarocks.org/dev luaformatter`
-- exe creator
-  - luarocks install [luastatic](https://github.com/ers35/luastatic)
+- lua modules
+  - `make install`
 
 ## commands
 

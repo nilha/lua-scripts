@@ -1,4 +1,7 @@
-function log (token)
-  print (token)
+local logger = {}
+
+function logger.log(token)
+  print(token)
 end
-return log
+
+return logger

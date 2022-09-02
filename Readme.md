@@ -34,3 +34,13 @@
 - [Manual](https://www.lua.org/manual/5.4/)
 - [Luajit](https://de.quora.com/Was-ist-so-besonders-an-LuaJIT)
 - [LUA Dotfiles](https://tewarid.github.io/2014/05/24/lua-dofile-and-globals.html)
+
+## todos
+
+- [x] how lua works
+- [x] create mail client
+- [x] make executable
+- [ ] docker
+- [ ] junit tests
+- [ ] integration tests
+- [ ] [grpc](https://github.com/jinq0123/grpc-lua/blob/master/examples/helloworld/greeter_client.lua) impl?

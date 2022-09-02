@@ -1,10 +1,12 @@
-# PoC lua
+# mail client with lua
 
 ## idea
 
 - send mail via sendinblue api (transactional mail)
+- scripting with lua
+- make executable and run in docker
 
-## knowledge
+## lesson
 
 - how lua works
 - creation of executable (static lua)
@@ -29,4 +31,6 @@
 
 ## docs
 
+- [Manual](https://www.lua.org/manual/5.4/)
 - [Luajit](https://de.quora.com/Was-ist-so-besonders-an-LuaJIT)
+- [LUA Dotfiles](https://tewarid.github.io/2014/05/24/lua-dofile-and-globals.html)

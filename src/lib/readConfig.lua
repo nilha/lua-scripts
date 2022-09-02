@@ -5,7 +5,7 @@ local function resolvePath(dir, fileName)
 end
 
 local function readConfig(fileName, dir)
-  dir = dir or os.getenv("PWD")
+  dir = dir or os.getenv("LUA_SRC_PATH") or os.getenv("PWD")
   local filePath = resolvePath(dir, fileName);
   local params = inifile.parse(filePath)
   return params
